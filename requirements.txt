@@ -2,12 +2,12 @@
 cymem>=2.0.2,<2.1.0
 preshed>=2.0.1,<2.1.0
 thinc>=7.0.8,<7.1.0
-blis>=0.2.2,<0.3.0
+blis==0.2.4.post1+dr
 murmurhash>=0.28.0,<1.1.0
 wasabi>=0.2.0,<1.1.0
 srsly>=0.0.6,<1.1.0
 # Third party dependencies
-numpy>=1.15.0
+numpy==1.14.6.post2+dr
 requests>=2.13.0,<3.0.0
 plac<1.0.0,>=0.9.6
 pathlib==1.0.1; python_version < "3.4"
